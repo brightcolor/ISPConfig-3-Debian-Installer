@@ -19,6 +19,9 @@ cat > /etc/apt/sources.list.d/dotdeb.list <<EOF
 deb http://packages.dotdeb.org wheezy all
 deb-src http://packages.dotdeb.org wheezy all
 
+deb http://packages.dotdeb.org wheezy-php56 all
+deb-src http://packages.dotdeb.org wheezy-php56 all
+
 EOF
 
 wget http://www.dotdeb.org/dotdeb.gpg
