@@ -167,7 +167,6 @@ a2enmod dav_fs dav auth_digest
 #Fix Ming Error
 rm /etc/php5/cli/conf.d/ming.ini
 cat > /etc/php5/cli/conf.d/ming.ini <<"EOF"
-# extension=ming.so
 EOF
 
 #Fix SuPHP
